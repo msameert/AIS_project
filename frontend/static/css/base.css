@@ -54,7 +54,7 @@ body:hover .nav-container {
   z-index: 1010;
 }
 .logo-tab span {
-  color: #d0d9da;
+  color: #6eedfb;
 }
 
 /* Links */
@@ -68,7 +68,7 @@ body:hover .nav-container {
 }
 
 .floating-nav a:hover {
-  color: #d0d9da;
+  color: #6eedfb;
 }
 
 /* Small underline dot effect */
@@ -158,7 +158,7 @@ body:hover .nav-container {
 
 .btn:hover {
   background-color: #fff;
-  color: #000;
+  color: #6eedfb;
 }
 
 .btn-outline {
@@ -169,7 +169,7 @@ body:hover .nav-container {
 
 .btn-outline:hover {
   background-color: #000;
-  color: #000;
+  color: #6eedfb;
 }
 
 /* Optional: Background image silhouette */

@@ -100,11 +100,13 @@ body:hover .nav-container {
   position: relative;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(135deg, #0a0a0a 40%, #e8e5e0 60%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  color: white;
 }
 
 /* Overlay gradient for aesthetic depth */
@@ -180,7 +182,7 @@ body:hover .nav-container {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url("{{ url_for('static', filename='images/profile-bg.jpg') }}") center/cover no-repeat;
+  background: url("{{ url_for('static', filename='images/1000406699.jpg') }}") center/cover no-repeat;
   opacity: 0.25;
   mix-blend-mode: multiply;
   z-index: 0;

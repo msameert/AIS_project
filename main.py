@@ -1,4 +1,7 @@
 from flask import Flask, render_template
+from backend import create_app
+
+app = create_app()
 
 app = Flask(__name__, template_folder="frontend/templates",static_folder="frontend/static")
 
